@@ -16,12 +16,12 @@ public class SceneController : MonoBehaviour {
     void Update() {
     }
 
+    public void startGame() {
+        SceneManager.LoadScene("Game");
+    }
+
     public void lostGame() {
         gameOverCanvas.SetActive(true);
         Time.timeScale = 0;
-    }
-
-    public void startGame() {
-        SceneManager.LoadScene(0);
     }
 }
