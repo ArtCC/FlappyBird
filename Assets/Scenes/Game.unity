@@ -713,7 +713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50af258e7ef9b48498a18c3805ee38e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 2
+  maxTime: 1.5
   obstacle: {fileID: 7941089844336878535, guid: 882064a5ae5a54d52a57453e8ac0cfab, type: 3}
   height: 0.5
 --- !u!1 &1177507194

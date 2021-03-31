@@ -14,6 +14,6 @@ public class Points : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        GetComponent<TextMeshProUGUI>().text= points.ToString();
+        GetComponent<TextMeshProUGUI>().text = points.ToString();
     }
 }

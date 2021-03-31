@@ -5,8 +5,9 @@ using UnityEngine;
 public class ObstacleGenerator : MonoBehaviour {
 
     public float maxTime = 2;
-    public GameObject obstacle;
     public float height;
+    
+    public GameObject obstacle;
     
     private float initialTime = 0;
 
